@@ -1,0 +1,169 @@
+:root {
+  --primary-color: rgba(13, 110, 139, 0.55);
+  --overlay-color: rgba(24, 39, 51, 0.85);
+  --menu-speed: 0.75s;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+aside,
+nav,
+footer,
+header,
+section {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  /* min-width: 1180px; */
+}
+body {
+  line-height: 1;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+
+/* Color Theme Swatches in Hex */
+.color-theme_FireShot-Capture-119---Изучение-английского-языка-онлайн--1-hex { color: #8973D9; }
+.color-theme_FireShot-Capture-119---Изучение-английского-языка-онлайн--2-hex { color: #3084F2; }
+.color-theme_FireShot-Capture-119---Изучение-английского-языка-онлайн--3-hex { color: #F2D64B; }
+.color-theme_FireShot-Capture-119---Изучение-английского-языка-онлайн--4-hex { color: #F18978; }
+.color-theme_FireShot-Capture-119---Изучение-английского-языка-онлайн--5-hex { color: #636E79; }
+
+/* Color Theme Swatches in RGBA */
+.color-theme_FireShot-Capture-119---Изучение-английского-языка-онлайн--1-rgba { color: rgba(137, 114, 216, 1); }
+.color-theme_FireShot-Capture-119---Изучение-английского-языка-онлайн--2-rgba { color: rgba(47, 131, 242, 1); }
+.color-theme_FireShot-Capture-119---Изучение-английского-языка-онлайн--3-rgba { color: rgba(242, 214, 75, 1); }
+.color-theme_FireShot-Capture-119---Изучение-английского-языка-онлайн--4-rgba { color: rgba(240, 137, 119, 1); }
+.color-theme_FireShot-Capture-119---Изучение-английского-языка-онлайн--5-rgba { color: rgba(98, 110, 121, 1); }
+
+
+
+
+html,
+body{
+  height: 100%;
+  font-family: 'Karla', sans-serif;
+  color: #F2D64B;
+  line-height: 1.4;
+}
+
+.showcase {
+  background-color: var(--primary-color);
+  color: #fff;
+  height: 100%;
+  position: relative;
+  /* z-index: 1; */
+}
+.showcase::before {
+  content: '';
+  position: absolute;
+  background: url('https://cdn.pixabay.com/photo/2018/05/04/07/55/snow-3373432_960_720.jpg') center center /cover no-repeat;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+
+}
+.container {
+  margin: 0 auto;
+  padding: 0 3rem;
+  overflow: hidden;
+}
+.showcase .showcase-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+.showcase h1{
+  font-size: 4rem;
+}
+.showcase p{
+  font-size: 1.2rem;
+}
+
+.btn {
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  margin: 1rem 0 0 0;
+  text-decoration: none;
+  transition: opacity 1s ease-in;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  -webkit-transition: opacity 1s ease-in;
+  -moz-transition: opacity 1s ease-in;
+  -ms-transition: opacity 1s ease-in;
+  -o-transition: opacity 1s ease-in;
+}
+.btn:hover {
+  opacity: 0.7;
+}
